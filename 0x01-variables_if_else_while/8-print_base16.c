@@ -2,14 +2,18 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - A program by RSDG that printa all aphabet in reverse
+ * main - A program by RSDG that prints all hexademial numbers
  * Return: Always 0 (Success)
  */
 int main(void)
 {
+	int d;
 	char low;
 
-	for (low = 'z'; low <= 'a'; low++)
+	for (d = '0'; d <= '9'; d++)
+	putchar(d);
+
+	for (low = 'a'; low = 'f'; low++)
 	putchar(low);
 	putchar('\n');
 return (0);
