@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - A progam that prints all the alphabets in small letters
- * Retun: Always (success)
+ * Return: Always (success)
  */
 int main(void)
 {
