@@ -2,12 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * maiin - A program that prints a text according number
+ *  main - A program that prints a text according number
  * Return: Always (success)
  */
 int main(void)
 {
-	int n,lastd;
+	int n, lastd;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
