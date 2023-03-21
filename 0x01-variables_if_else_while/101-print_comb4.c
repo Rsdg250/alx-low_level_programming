@@ -15,12 +15,12 @@ int main(void)
 	{
 	for (q = '0'; q <= '9'; q++)
 	{
-	if (((p != d && p > d) && (p != q && p < q)) &&(d != q && d < q))
+	if (((p != d && p > d) && (p != q && p < q)) && (d != q && d < q))
 	{
 	putchar(d);
 	putchar(p);
 	putchar(q);
-	if (d == '8' && p == '9')
+	if ((d == '7' && p == '8') && q == 9)
 	continue;
 	putchar(',');
 	putchar(' ');
