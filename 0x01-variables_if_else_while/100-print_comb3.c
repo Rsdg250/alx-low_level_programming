@@ -13,7 +13,7 @@ int main(void)
 	{
 	for (p = '0'; p <= '9'; p++)
 	{
-	if (p != d)
+	if (p != d && p > d)
 	{
 	putchar(d);
 	putchar(p);
