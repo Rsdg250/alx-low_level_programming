@@ -10,14 +10,10 @@
 */
 int _isupper(int c)
 {
-	int alphabet;
 
-	for (alphabet >= 65; alphabet <= 90; alphabet++)
+	for (c >=65 && c <= 90)
 	{
-	if (c == alphabet)
-	{
-	return (0);
-	}
-	}
 	return (1);
+	}
+	return (0);
 }
