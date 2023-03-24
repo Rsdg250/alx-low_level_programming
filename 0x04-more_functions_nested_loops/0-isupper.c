@@ -12,7 +12,7 @@ int _isupper(int c)
 {
 	int alphabet;
 
-	for (alphabet = 97; alphabet <= 122; alphabet++)
+	for (alphabet >= 65; alphabet <= 90; alphabet++)
 	{
 	if (c == alphabet)
 	{
