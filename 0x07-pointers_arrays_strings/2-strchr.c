@@ -6,7 +6,7 @@
  * @s: The string to be searched.
  * @c: The character to be located.
  * Return: If c is found - a pointer to the first occurence.
- *         If c is not found - NULL.
+ * 		If c is not found - NULL.
  */
 
 char *_strchr(char *s, char c)
@@ -18,6 +18,6 @@ char *_strchr(char *s, char c)
 		if (s[i] == c)
 			return (s + i);
 	}
-	/* '\0' is the same as NULL */
+
 	return ('\0');
 }
