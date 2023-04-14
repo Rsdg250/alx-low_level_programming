@@ -11,11 +11,15 @@ int count_word(char *s)
 
 	flag = 0, w = 0;
 	for (c = 0; s[c] != '\0'; c++)
+	{
 		if (s[c] == ' ')
 			flag = 0;
 		else if (flag == 0)
+		{
 			flag = 1;
 			w++;
+		}
+	}
 			return (w);
 }
 /**
@@ -24,7 +28,7 @@ int count_word(char *s)
  * Return: pointer to an array of strings (Success)
  * or NULL (Error)
  */
-char **strtow(char *str);
+char **strtow(char *str)
 {
 	char **matrix, *tmp;
 	int i, k = 0, len = 0, words, c = 0, start, end;
@@ -44,7 +48,7 @@ char **strtow(char *str);
 	{
 	if (c)
 	{
-	nd = i;
+	end = i;
 	tmp = (char *) malloc(sizeof(char) * (c + 1));
 	if (tmp == NULL)
 	return (NULL);
