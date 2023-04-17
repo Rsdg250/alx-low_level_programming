@@ -1,8 +1,8 @@
-#ifndef SIZE_H
-#define SIZE_H
+#ifndef OBJECT_LIKE_MACRO_H
+#define OBJECT_LIKE_MACRO_H
 
 /**
- * description:  a header file that defines a macro named SIZE
+ * SIZE -  a header file that defines a macro named SIZE
  * as an abbreviation for the token 1024
  */
 
