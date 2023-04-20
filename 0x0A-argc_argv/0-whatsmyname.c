@@ -4,7 +4,7 @@
  * main - A function that prints the program name,
  * Followed by a new line
  * @argc: The amount of arguments supplied to the program
- * @char *argv: An array of arguments that is supplied to the program
+ * @argv: An array of arguments that is supplied to the program
  * Return: Always 0
  */
 
